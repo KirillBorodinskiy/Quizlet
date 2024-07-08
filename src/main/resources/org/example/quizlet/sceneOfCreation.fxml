@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" scaleShape="false" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.quizlet.controllerOfCreation">
+   <TextArea fx:id="frontSideInput" layoutX="14.0" layoutY="100.0" maxHeight="200.0" maxWidth="200.0" minHeight="200.0" minWidth="200.0" prefHeight="200.0" prefWidth="200.0" promptText="Front side of a card" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="15.0" />
+   <TextArea fx:id="backSideInput" layoutX="386.0" layoutY="100.0" maxHeight="200.0" maxWidth="200.0" minHeight="200.0" minWidth="200.0" prefHeight="200.0" prefWidth="200.0" promptText="Back side of a card" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />
+   <TextField fx:id="titleCard" layoutX="225.0" layoutY="15.0" maxHeight="26.0" maxWidth="150.0" minHeight="26.0" minWidth="150.0" prefHeight="26.0" prefWidth="150.0" promptText="Title of a card" AnchorPane.topAnchor="15.0" />
+   <Button layoutX="225.0" layoutY="188.0" maxHeight="26.0" maxWidth="150.0" minHeight="26.0" minWidth="150.0" mnemonicParsing="false" onAction="#saveCard" prefHeight="26.0" prefWidth="150.0" text="Save the card to the db" AnchorPane.bottomAnchor="15.599999999999994" />
+</AnchorPane>
